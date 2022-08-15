@@ -551,6 +551,34 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -663,6 +691,66 @@ video {
 .mx-\[220px\] {
   margin-left: 220px;
   margin-right: 220px;
+}
+
+.my-\[25px\] {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.my-\[80px\] {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.my-\[45px\] {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.my-\[52px\] {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+.my-\[55px\] {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.mx-\[400px\] {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.mx-\[300px\] {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.mx-\[280px\] {
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.mx-\[270px\] {
+  margin-left: 270px;
+  margin-right: 270px;
+}
+
+.my-\[115px\] {
+  margin-top: 115px;
+  margin-bottom: 115px;
 }
 
 .mt-\[2px\] {
@@ -825,6 +913,18 @@ video {
   margin-bottom: 161px;
 }
 
+.ml-\[95px\] {
+  margin-left: 95px;
+}
+
+.ml-\[181px\] {
+  margin-left: 181px;
+}
+
+.mr-\[81px\] {
+  margin-right: 81px;
+}
+
 .flex {
   display: flex;
 }
@@ -881,12 +981,40 @@ video {
   height: 5rem;
 }
 
+.h-\[432px\] {
+  height: 432px;
+}
+
+.h-\[95px\] {
+  height: 95px;
+}
+
+.h-\[327px\] {
+  height: 327px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
 .max-h-\[589px\] {
   max-height: 589px;
 }
 
 .max-h-\[50px\] {
   max-height: 50px;
+}
+
+.max-h-\[327px\] {
+  max-height: 327px;
+}
+
+.max-h-\[280px\] {
+  max-height: 280px;
+}
+
+.max-h-\[200px\] {
+  max-height: 200px;
 }
 
 .w-4 {
@@ -929,6 +1057,14 @@ video {
   width: 5rem;
 }
 
+.w-\[567px\] {
+  width: 567px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
 .max-w-\[1440px\] {
   max-width: 1440px;
 }
@@ -963,6 +1099,14 @@ video {
 
 .max-w-\[198px\] {
   max-width: 198px;
+}
+
+.max-w-\[548px\] {
+  max-width: 548px;
+}
+
+.max-w-\[567px\] {
+  max-width: 567px;
 }
 
 .flex-1 {
