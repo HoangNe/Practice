@@ -550,3 +550,176 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.my-\[18px\] {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.mt-\[2px\] {
+  margin-top: 2px;
+}
+
+.ml-\[303px\] {
+  margin-left: 303px;
+}
+
+.mr-\[303px\] {
+  margin-right: 303px;
+}
+
+.mr-\[280px\] {
+  margin-right: 280px;
+}
+
+.mr-\[250px\] {
+  margin-right: 250px;
+}
+
+.mr-\[200px\] {
+  margin-right: 200px;
+}
+
+.mr-\[180px\] {
+  margin-right: 180px;
+}
+
+.mr-\[160px\] {
+  margin-right: 160px;
+}
+
+.ml-\[98px\] {
+  margin-left: 98px;
+}
+
+.mr-\[84px\] {
+  margin-right: 84px;
+}
+
+.mr-\[49px\] {
+  margin-right: 49px;
+}
+
+.mr-\[56px\] {
+  margin-right: 56px;
+}
+
+.mr-\[68px\] {
+  margin-right: 68px;
+}
+
+.mr-\[54px\] {
+  margin-right: 54px;
+}
+
+.mt-\[18px\] {
+  margin-top: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+
+.max-w-\[84px\] {
+  max-width: 84px;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.from-\[\#E43AD8\] {
+  --tw-gradient-from: #E43AD8;
+  --tw-gradient-to: rgb(228 58 216 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-\[\#2738FF\] {
+  --tw-gradient-to: #2738FF;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pl-\[119px\] {
+  padding-left: 119px;
+}
+
+.pr-\[83px\] {
+  padding-right: 83px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#9013FE\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(144 19 254 / var(--tw-text-opacity));
+}
