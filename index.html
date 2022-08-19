@@ -24,7 +24,9 @@
         <a href="#" class="text-base"
           >Khoá đào tạo Chiến Lược Nguồn Vốn Doanh Nghiệp</a
         >
-        <a href="#">Đăng ký tại <b>vondoanhnghiep.com</b></a>
+        <div class="w-[210px] px-5 py-1">
+        <a href="#"><p class="text-clip overflow-hidden">Đăng&nbsp;ký&nbsp;tại&nbsp;<b>vondoanhnghiep.com</b></p></a>
+        </div>
         <div class="flex text-sm gap-x-2">
           <a href="#">Đăng ký</a>
           |
@@ -37,7 +39,7 @@
       >
         <!-- Logo -->
         <div class="flex max-w-[84px] h-[60px]">
-          <a href="#"><img src="img/logofooter.png" alt="logo" /></a>
+          <a href="#"><img src="img/logo.png" alt="logo" /></a>
         </div>
         <!-- Menu -->
         <div class="flex items-center justify-between uppercase font-bold">
@@ -366,6 +368,7 @@
         </a>
         </div>
         </div>
+        <!-- Education -->
         <div class="max-w-full h-auto">
             <div class="text-center text-3xl font-bold pt-[53px]">
                 <h1>Bạn chưa tìm thấy khóa học mình quan tâm ?</h1>
@@ -484,6 +487,7 @@
         <div class="max-w-full h-auto">
             <h1 class="text-3xl text-[#9013FE] text-center font-bold py-14">Tin Tức</h1>
             <div class="grid grid-cols-3 gap-x-[30px] mx-20 mb-[75px]">
+                <a href="#">
                 <div class="border rounded-lg">
                     <img src="img/img3.png" alt="img3">
                     <div class="flex my-7 ml-[29px]">
@@ -498,6 +502,8 @@
                     </div>
                     <p class="text-xl font-bold ml-[29px] mb-[44px]">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
                 </div>
+                </a>
+                <a href="#">
                 <div class="border rounded-lg">
                     <img src="img/img4.png" alt="img4">
                     <div class="flex my-7 ml-[29px]">
@@ -512,6 +518,8 @@
                     </div>
                     <p class="text-xl font-bold ml-[29px] mb-[44px]">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
                 </div>
+                </a>
+                <a href="#">
                 <div class="border rounded-lg">
                     <img src="img/img5.png" alt="img5">
                     <div class="flex my-7 ml-[29px]">
@@ -526,6 +534,7 @@
                     </div>
                     <p class="text-xl font-bold ml-[29px] mb-[44px]">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
                 </div>
+                </a>    
             </div>
         </div>
         <!-- Contact -->
@@ -533,7 +542,7 @@
             <div class="w-[600px] h-[174px] mt-[85px] mx-[382px] bg-[#f9f9f9]">
                 <h1 class="text-3xl text-center text-[#9013FE] font-bold">Đăng Ký Nhận Bản Tin Của Chúng Tôi</h1>
                 <p class="text-center text-[#AAAAAA] mt-5 mb-6">Đăng ký theo dõi để nhận những tin tức mới nhất tất cả các hoạt động của chúng tôi!</p>
-                <div class="flex bg-white">
+                <div class="flex bg-white rounded-lg">
                     <div class="flex items-center flex-1 pl-[10px] gap-x-3 border border-r-0">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -550,24 +559,20 @@
                         />
                       </svg>
                       <input
-                        type="text"
+                        type="email"
                         placeholder="Nhập email của bạn"
-                        class="outline-none flex-1 rounded"
+                        class="outline-none flex-1 peer @error('email')"
                       />
+                    <p class="invisible peer-invalid:visible text-red-500 text-sm">
+                        Vui lòng nhập đúng email của bạn
+                    </p>
                     </div>
                     <button
-                      class="text-white text-[17px] font-bold bg-[#9013FE] py-2 px-9 rounder"
+                      class="text-white text-[17px] font-bold bg-[#9013FE] py-2 px-9"
                     >
                       Gửi
                     </button>
                   </div>
-                <!-- <div class="flex">
-                <input type="email" class="peer ml-9 p-3 rounded-lg" placeholder="Nhập email của bạn"/>
-                <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
-                Please provide a valid email address.
-                </p>
-                <button class="h-auto text-white font-semibold text-center px-9 py-[10px] rounded-lg bg-[#9013FE]">Gửi</button>
-                </div> -->
             </div>
             <div class="w-[42px] h-[27px] ml-[840px] mt-3 bg-[#f9f9f9]"></div>
         </div>
@@ -616,7 +621,7 @@
                 </div>
             </div>
             <hr class="max-w-full h-1 mt-[48px] pb-[39px]">
-            <div class="flex justify-between pb-[45px]">
+            <div class="flex justify-between pb-[45px] text-lg">
                 <p class="ml-[98px]">Copyright &copy; 2020 Vercon Designed by Modoro. All Rights Reserved</p>
                 <div class="flex gap-x-6 mr-[45px]">
                     <a href="#">Tin Tức</a>
