@@ -8,13 +8,433 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="build/body.css" />
     <title>E-Coaching</title>
   </head>
   <body>
+    <div id="root">
+      <!-- Header_bar -->
+      <div
+        class="max-w-full h-auto flex flex-row items-center justify-between pl-[119px] pr-[83px] py-[15px] text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]"
+      >
+        <a href="#" class="text-sm mr-[160px]">Hotline: <b>0869 039 899</b></a>
+        <a href="#" class="text-base"
+          >Khoá đào tạo Chiến Lược Nguồn Vốn Doanh Nghiệp</a
+        >
+        <a href="#">Đăng ký tại <b>vondoanhnghiep.com</b></a>
+        <div class="flex text-sm gap-x-2">
+          <a href="#">Đăng ký</a>
+          |
+          <img class="w-4 h-4 mt-[2px]" src="icon/icon_user.png" alt="icon" />
+          <a href="#">Đăng nhập</a>
+        </div>
+      </div>
+      <div  
+        class="flex flex-row items-center justify-between ml-[98px] mr-[84px] my-[18px]"
+      >
+        <!-- Logo -->
+        <div class="flex max-w-[84px] h-[60px]">
+          <a href="#"><img src="img/logofooter.png" alt="logo" /></a>
+        </div>
+        <!-- Menu -->
+        <div class="flex items-center justify-between uppercase font-bold">
+          <a class="mr-[49px] hover:text-[#9013FE]" href="#">trang chủ</a>
+          <a class="mr-[56px] hover:text-[#9013FE]" href="#">giới thiệu</a>
+          <a class="mr-[68px] hover:text-[#9013FE]" href="#">tin tức</a>
+          <a class="mr-[54px] hover:text-[#9013FE]" href="#">khoa học</a>
+          <a class="hover:text-[#9013FE]" href="#">liên hệ</a>
+        </div>
+      </div>
+      <!-- Banner -->
+      <div class="max-w-full h-auto">
+        <img src="img/panner.png" alt="banner" />
+      </div>
+      <!-- Introduce E-Coaching -->
+      <div class="flex flex-row gap-x-20">
+        <!-- Image Introduce -->
+        <div class="flex-none ml-[143px] my-14">
+          <img class="w-[503px] h-[589px]" src="img/img1.png" alt="image1" />
+        </div>
+        <!-- Content Introduce -->
+        <div class="flex flex-col justify-center mr-[77px] my-[90px]">
+          <h1 class="font-bold text-4xl text-[#9013FE] mb-7">
+            Giới Thiệu E-Coaching
+          </h1>
+          <p class="text-[#AAAAAA] text-justify text-lg">
+            Công ty TNHH Verco Consultant được chính thức thành lập vào tháng
+            12/2019, tiền thân là bộ phận tái cấu trúc của công ty mẹ. Công ty cổ
+            phần tái cấu trúc doanh nghiệp Việt. Trong hơn 04 hoạt động đã đào
+            tạo được hơn 12.000 chủ doanh nghiệp và các cấp quản lý. Vercon mang
+            trong mình sứ mệnh:
+            <p class="font-semibold mb-11 text-lg">“ Doanh nhân nâng tầm doanh trí - Phát huy trí
+            tuệ Việt ”</p>
+          </p>
+          <p class="font-semibold text-xl">Lĩnh vực hoạt động của VERCON:</p>
+          <div class="flex my-7 text-lg">
+            <button class="w-[30px] h-[30px] text-white rounded-full bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>
+            <p class="py-[2px] px-2">Đào tạo, cung cấp nguồn nhân lực</p>
+        </div>
+        <div class="flex mb-12 text-lg">
+            <button class="w-[30px] h-[30px] text-white rounded-full bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>
+            <p class="py-[2px] px-2">Cung cấp giải pháp All-in-one</p>
+        </div>
+        <div class="text-2xl">
+          <button class="max-w-full h-auto px-5 py-2 text-white bg-gradient-to-tr to-[#2738FF] mr-5 from-[#E43AD8] rounded-lg">Tìm hiểu thêm ➜</button>
+          <button class="max-w-full h-auto px-5 py-2 bg-[#EBEFF7] rounded-lg">Liên hệ</button>
+        </div>
+        </div>
+      </div>
+      <div class="max-w-full h-auto bg-[#F9F9F9]">
+        <div class="flex flex-row items-center justify-between text-[#9013FE] pt-[84px] pr-[76px] pl-[107px]">
+            <h1 class="font-bold text-4xl">Các Khoá Đào Tạo</h1>
+            <a class="text-2xl">Xem thêm ➜</a>
+        </div>
+        <div class="grid grid-cols-3 gap-[30px] mt-[35px] mr-[77px] ml-[103px] pb-[72px]">
+            <div class="flex flex-col max-w-[400px] h-auto bg-white">
+                <img src="img/img2.png" alt="img2">
+                <div class="flex flex-col mx-[30px]">
+                <p class="text-[#AAAAAA] text-lg mb-[14px] mt-[23px]">Chiến Lược</p>
+                <p class="font-bold text-[22px] mb-4">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                        <p class="text-lg text-[#AAAAAA] ml-2">10 bài học</p>
+                    </div>
+                <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p class="text-lg text-[#AAAAAA] ml-2">30 ngày</p> 
+                </div>
+                </div>
+                <hr class="max-w-[335px] h-[2px] my-9">
+                <div class="flex items-center justify-between">
+                    <div class="flex mb-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <p class="text-[#AAAAAA]">(39)</p>
+                </div>
+                <button class="w-10 h-10 mb-10 rounded-full text-xl text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>               
+                </div>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-[400px] h-auto bg-white">
+                <img src="img/img2.png" alt="img2">
+                <div class="flex flex-col mx-[30px]">
+                <p class="text-[#AAAAAA] text-lg mb-[14px] mt-[23px]">Chiến Lược</p>
+                <p class="font-bold text-[22px] mb-4">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                        <p class="text-lg text-[#AAAAAA] ml-2">10 bài học</p>
+                    </div>
+                <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p class="text-lg text-[#AAAAAA] ml-2">30 ngày</p> 
+                </div>
+                </div>
+                <hr class="max-w-[335px] h-[2px] my-9">
+                <div class="flex items-center justify-between">
+                    <div class="flex mb-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <p class="text-[#AAAAAA]">(39)</p>
+                </div>
+                <button class="w-10 h-10 mb-10 rounded-full text-xl text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>               
+                </div>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-[400px] h-auto bg-white">
+                <img src="img/img2.png" alt="img2">
+                <div class="flex flex-col mx-[30px]">
+                <p class="text-[#AAAAAA] text-lg mb-[14px] mt-[23px]">Chiến Lược</p>
+                <p class="font-bold text-[22px] mb-4">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                        <p class="text-lg text-[#AAAAAA] ml-2">10 bài học</p>
+                    </div>
+                <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p class="text-lg text-[#AAAAAA] ml-2">30 ngày</p> 
+                </div>
+                </div>
+                <hr class="max-w-[335px] h-[2px] my-9">
+                <div class="flex items-center justify-between">
+                    <div class="flex mb-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <p class="text-[#AAAAAA]">(39)</p>
+                </div>
+                <button class="w-10 h-10 mb-10 rounded-full text-xl text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>               
+                </div>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-[400px] h-auto bg-white">
+                <img src="img/img2.png" alt="img2">
+                <div class="flex flex-col mx-[30px]">
+                <p class="text-[#AAAAAA] text-lg mb-[14px] mt-[23px]">Chiến Lược</p>
+                <p class="font-bold text-[22px] mb-4">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                        <p class="text-lg text-[#AAAAAA] ml-2">10 bài học</p>
+                    </div>
+                <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p class="text-lg text-[#AAAAAA] ml-2">30 ngày</p> 
+                </div>
+                </div>
+                <hr class="max-w-[335px] h-[2px] my-9">
+                <div class="flex items-center justify-between">
+                    <div class="flex mb-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <p class="text-[#AAAAAA]">(39)</p>
+                </div>
+                <button class="w-10 h-10 mb-10 rounded-full text-xl text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>               
+                </div>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-[400px] h-auto bg-white">
+                <img src="img/img2.png" alt="img2">
+                <div class="flex flex-col mx-[30px]">
+                <p class="text-[#AAAAAA] text-lg mb-[14px] mt-[23px]">Chiến Lược</p>
+                <p class="font-bold text-[22px] mb-4">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                        <p class="text-lg text-[#AAAAAA] ml-2">10 bài học</p>
+                    </div>
+                <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p class="text-lg text-[#AAAAAA] ml-2">30 ngày</p> 
+                </div>
+                </div>
+                <hr class="max-w-[335px] h-[2px] my-9">
+                <div class="flex items-center justify-between">
+                    <div class="flex mb-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <p class="text-[#AAAAAA]">(39)</p>
+                </div>
+                <button class="w-10 h-10 mb-10 rounded-full text-xl text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>               
+                </div>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-[400px] h-auto bg-white">
+                <img src="img/img2.png" alt="img2">
+                <div class="flex flex-col mx-[30px]">
+                <p class="text-[#AAAAAA] text-lg mb-[14px] mt-[23px]">Chiến Lược</p>
+                <p class="font-bold text-[22px] mb-4">Chiến Lược Tài Chính Cho Doanh Nghiệp</p>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                        <p class="text-lg text-[#AAAAAA] ml-2">10 bài học</p>
+                    </div>
+                <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#9013FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p class="text-lg text-[#AAAAAA] ml-2">30 ngày</p> 
+                </div>
+                </div>
+                <hr class="max-w-[335px] h-[2px] my-9">
+                <div class="flex items-center justify-between">
+                    <div class="flex mb-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFBE3F]" fill="#FFBE3F" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <p class="text-[#AAAAAA]">(39)</p>
+                </div>
+                <button class="w-10 h-10 mb-10 rounded-full text-xl text-white bg-gradient-to-tr to-[#2738FF] from-[#E43AD8]">➜</button>               
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="max-w-full h-auto">
+            <div class="text-center text-3xl font-bold pt-[53px]">
+                <h1>Bạn chưa tìm thấy khóa học mình quan tâm ?</h1>
+                <h1>Vercon có hơn 1.000 khóa học đang chờ bạn khám phá.</h1>
+            </div>
+            <div class="grid grid-cols-6 gap-4 mx-[89px]">
+                <div class="w-auto h-auto ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Marketing</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Kinh doanh</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Giáo dục</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Sức khoẻ</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Thiếu nhi</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Văn Hoá</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Marketing</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Kinh doanh</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Giáo dục</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Sức khoẻ</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Thiếu nhi</p>
+                </div>
+                <div class="max-w-[198px] h-[120px] ml-[89px] mt-[81px]">
+                    <div class="w-[50px] h-[50px] rounded-full bg-[#E9D1FF] mx-auto"></div>
+                    <p class="text-lg text-center">Văn Hoá</p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-extrabold text-center mt-[93px] mb-[34px]">3 lý Do Bạn Nên Học Tại VERCON</h1>
+            <div class="grid grid-cols-3 mx-[220px] gap-x-[269px] mb-[161px]">
+                <div class="w-[150px] h-[150px] border rounded-full ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-30 w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <p class="text-center font-bold text-xl my-2">Giảng viên uy tín</p>
+                      <p class="text-center text-sm">Bài giảng chất lượng</p>
+                </div>
+                <div class="w-[150px] h-[150px] border rounded-full ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-30 w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <p class="text-center font-extrabold text-lg my-2">Thanh toán 1 lần</p>
+                      <p class="text-center text-sm">Học mãi mãi</p>
+                </div>
+                <div class="w-[150px] h-[150px] border rounded-full ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-30 w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <p class="text-center font-bold text-xl my-2">Học trực tuyến</p>
+                      <p class="text-center text-sm">Hỗ trợ trực tiếp</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
     <script src="main.js"></script>
   </body>
 </html>
